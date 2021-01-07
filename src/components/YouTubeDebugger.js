@@ -7,5 +7,15 @@ export default class YouTubeDebugger extends Component{
     
   }
   
+   handleClick = () => {
+    this.setState ({
+      
+    })
+  }
   
+  render () {
+    return (
+      <button onClick={this.handleClick}>{this.state.timesClicked}</button>
+      )
+  }
 }
